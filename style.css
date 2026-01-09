@@ -1,0 +1,73 @@
+/* this is univesel  */
+* {
+    margin:0 ;
+    padding:0 ;
+}
+
+/* font */
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* this is top nav-bar */
+#nav-bar {
+    height: 92px;
+    width:90% ;
+    border:1px solid red ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 120px ;
+}
+/* nav logo-1 */
+.logo1 img{
+    height: 60px;
+    width:139px;
+    /* margin: 16px 120px 16px 120px; */
+}
+/* nav text */
+ .nav-text  {
+    display: flex;
+    gap:40px ;
+}
+/* nav text -a */
+.nav-text a {
+ cursor: pointer;
+ font-weight: 600;
+ color: #000000;
+
+
+}
+/* thisis may button Early Access */
+.button-1 {
+    display: flex;
+    align-items: center;
+   
+}
+/* button callas */
+ .btn1{
+    height:44PX ;
+    
+    background-color:#30B868 ;
+    color:#FFFFFF;
+    padding:0 24px;
+    border-radius:5px ;
+    border: none;
+    text-align:center ;
+    cursor: pointer;
+    transition:all 0.3s ease ;
+
+}
+/* button hover */
+.btn1:hover {
+    background-color:darkgray ;
+    border:1px solid darkgray ;
+}
+#hero{
+    background-image: url(assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  width: 90%;
+height: 1363px;
+}
